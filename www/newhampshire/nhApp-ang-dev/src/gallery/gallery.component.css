@@ -1,0 +1,17 @@
+#gallerycontainer {
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+img {
+  border-color: black;
+  border-style:solid;
+  border-radius: 5%;
+  width: 90%;
+}
+
+#textContainer {
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 30px;
+}

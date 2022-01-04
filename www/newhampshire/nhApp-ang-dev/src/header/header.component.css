@@ -1,0 +1,21 @@
+#header {
+  position: relative;
+  text-align: center;
+  padding: 50px;
+  overflow: hidden;
+
+}
+
+#titleText {
+  position: absolute;
+  top: 200px;
+  left: 500px;
+  color: white;
+  font-weight: bold;
+  font-size: 75px;
+  overflow:visible;
+
+}
+img {
+  width: 95%;
+}

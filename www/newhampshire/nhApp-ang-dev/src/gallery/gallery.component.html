@@ -1,0 +1,28 @@
+<div id = "gallerycontainer" class="container">
+  <div class="row">
+    <div class="col">
+      <img (click)="franconiaText()" src = "{{franconia}}">
+    </div>
+    <div class="col">
+      <img (click)="waterparkText()" src = "{{waterpark}}">
+    </div>
+    <div class="col">
+      <img (click)="castleText()" src = "{{castle}}">
+    </div>
+  </div>
+</div>
+
+<div id = "textContainer">
+  <div *ngIf = "!isDefault" class="container">
+    {{defaulttext1}}
+  </div>
+  <div *ngIf = "!isWaterpark" class="container">
+    {{waterparktext1}}
+  </div>
+  <div *ngIf = "!isFranconia" class="container">
+    {{franconiatext1}}
+  </div>
+<div *ngIf = "!isShowCastle" class="container">
+  {{castletext1}}
+</div>
+</div>
